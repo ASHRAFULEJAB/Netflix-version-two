@@ -3,15 +3,15 @@ import { InformationCircleIcon } from "@heroicons/react/24/outline";
 
 import PlayButton from "@/components/PlayButton";
 import useBillboard from "../hooks/useBillboard";
-// import useInfoModalStore from "@/hooks/useInfoModalStore";
+import useInfoModalStore from "../hooks/useInfoModal";
 
 const Billboard: React.FC = () => {
-  //   const { openModal } = useInfoModalStore();
+  const { openModal } = useInfoModalStore();
   const { data } = useBillboard();
 
   const handleOpenModal = useCallback(() => {
-    // openModal(data?.id);
-  }, []);
+    openModal(data?.id);
+  }, [openModal, data?.id]);
 
   return (
     <div className="relative h-[56.25vw]">
