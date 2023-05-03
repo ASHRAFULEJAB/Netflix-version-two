@@ -16,7 +16,7 @@
     "incremental": true,
     "paths": {
       "@app/*": ["./app/*"],
-      "@assets/*": ["./assets/*"],
+      "@pages/*": ["./pages/*"],
       "@components/*": ["./components/*"],
       "@styles/*": ["./styles/*"],
       "@/hooks*": ["./hooks/*"]
