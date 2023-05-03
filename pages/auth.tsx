@@ -1,10 +1,11 @@
 import { useCallback, useState } from "react";
-import Input from "../components/Input";
+// import Input from "../components/Input";
 import { useRouter } from "next/router";
 import axios from "axios";
 import { signIn } from "next-auth/react";
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
+import Input from "@/components/Input";
 
 const TextEncodingPolyfill = require("text-encoding");
 Object.assign(global, {

@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-     "dev": "next dev",
+    "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
     "build": "next build"
-  
-    
   },
   "dependencies": {
     "@heroicons/react": "^2.0.16",
